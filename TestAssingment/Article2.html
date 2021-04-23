@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog writing</title>
+    <link rel="stylesheet" href="styl.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <ul class="nav_links">
+                <li><a href="index.html">Article 1</a></li>
+                <li><a href="Article2.html">Article 2</a></li>
+                <li><a href="Article3.html">Article 3</a></li>
+                
+
+            </ul>
+        </nav>
+        <a class="cta" href="#"><button>contact</button></a>
+
+
+    </header>
+   
+        <div class="blog">
+            <div><img src="Screenshot (3).png" alt="d"></div>
+            
+            <p style="margin-top: 20px;"> Reserve Bank of India constitutes a Committee on functioning of Asset 
+                Reconstruction Companies (ARCs) and review of regulatory guidelines 
+                applicable to them</p>
+            <pre class="paragraph">
+                Reserve Bank of India constitutes a Committee on functioning of Asset 
+Reconstruction Companies (ARCs) and review of regulatory guidelines 
+applicable to them
+ As part of the Statement on Developmental and Regulatory Policies released 
+along with the Monetary Policy Statement on April 7, 2021, the Reserve Bank of India 
+had announced setting up of a Committee to undertake a comprehensive review of 
+the working of ARCs in the financial sector ecosystem and recommend suitable 
+measures for enabling such entities to meet the growing requirements of the financial 
+sector. Accordingly, the Reserve Bank of India has constituted a Committee with the 
+following composition:
+1. Shri Sudarshan Sen, former Executive Director, RBI Chairman
+2. Ms. Vishakha Mulye, Executive Director, ICICI Bank Member
+3. Shri P N Prasad, former Dy. Managing Director, SBI Member
+4. Shri Rohit Prasad, Professor of Economics, MDI, Gurgaon Member
+5. Shri Abizer Diwanji, Partner, Ernst & Young Member
+6. Shri R Anand, Chartered Accountant Member
+ 
+The terms of reference of the Committee will be as under:
+(i) Review of existing legal and regulatory framework applicable to ARCs and 
+recommend measures to improve efficacy of ARCs;
+(ii) Review of role of ARCs in resolution of stressed assets including under 
+Insolvency & Bankruptcy Code (IBC), 2016; 
+(iii) Suggestions for improving liquidity in and trading of security receipts;
+(iv)Review of business models of the ARCs;
+(v) Any other matter relevant to the functioning, transparency and governance of 
+ARCs.
+ The Committee will submit its report within three months from the date of its first 
+meeting. Department of Regulation, Reserve Bank of India will provide the necessary 
+secretarial support to the Committee.
+ (Yogesh Dayal)
+Press Release: 2021-2022/78 Chief General Manage
+</pre>
+    
+                
+    </div>
+
+
+<div class="comment-div">
+    <button class="comment button" onclick="commentButtonClicked()">Comment</button>
+</div>
+
+<div id="side" class="curtain">
+    <div class="side-window">
+        <button class="exit" onclick="exitButtonClicked()">❌</button>
+        <h2 class="res">Responses(5)</h2>
+        <textarea class="comments" name="comment" id="comment" cols="45" rows="3" placeholder="leave a text here"></textarea><br>
+        <button class="closebtn" onclick="closeButtonClicked()">submit</button><br>
+
+        
+        <img src="face.png" class="face" alt="face">
+        <span class="name" >Priyank sharma</span>
+        <div>
+         <div class="square">
+             
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus 
+                 fugiat vitae distinctio numquam tempora labore porro eius reiciendis. Rem, 
+                 eum at neque eius numquam suscipit quaerat cupiditate incidunt quos aut.
+                 fugiat vitae distinctio numquam tempora labore porro eius reiciendis. Rem, 
+                 eum at neque eius numquam suscipit quaerat cupiditate incidunt quos aut.
+              </p><br>
+<P>thank you</P>
+         </div>
+        </div>
+            <style>
+            
+            .square {
+             color:black;
+             border-style: groove;
+             border-width: 2px;
+             width: 350px;
+             height: 200px;
+             text-align: left;
+            }
+            </style>
+
+                
+<img src="elon.jpg" class="face" alt="face">
+<span class="name" >Elon musk</span>
+<div>
+ <div class="square">
+     
+     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus 
+         fugiat vitae distinctio numquam tempora labore porro eius reiciendis. Rem, 
+         eum at neque eius numquam suscipit quaerat cupiditate incidunt quos aut.
+         fugiat vitae distinctio numquam tempora labore porro eius reiciendis. Rem, 
+         eum at neque eius numquam suscipit quaerat cupiditate incidunt quos aut.
+      </p><br>
+<P>thank you</P>
+ </div>
+</div>
+    <style>
+    
+    .square {
+     color:black;
+     border-style: groove;
+     border-width: 2px;
+     width: 350px;
+     height: 200px;
+     text-align: left;
+    }
+    </style>
+        
+    </div>
+</div>
+
+
+<script>
+    function commentButtonClicked() {
+        document.getElementById("side").style.display = "block";
+    }
+    function closeButtonClicked() {
+        document.getElementById("side").style.display = "none";
+    }
+    function exitButtonClicked(){
+            document.getElementById("side").style.display = "none";
+        }
+</script>
+</body>
+</html>

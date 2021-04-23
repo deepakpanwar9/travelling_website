@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog writing</title>
+    <link rel="stylesheet" href="styl.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <ul class="nav_links">
+                <li><a href="index.html">Article 1</a></li>
+                <li><a href="Article2.html">Article 2</a></li>
+                <li><a href="Article3.html">Article 3</a></li>
+                
+
+            </ul>
+        </nav>
+        <a class="cta" href="#"><button>contact</button></a>
+
+
+    </header>
+    <div class="blog">
+        <div><img src="Screenshot (2).png" alt="d"></div>
+        
+       
+        <pre class="paragraph">
+    RBI/2021-22/20
+
+
+DoR.LIC.REC.5/16.13.218/2021-22 April 8, 2021
+
+Chief Executive Officers of Payments Banks
+
+Dear Sir/Madam,
+1.  Enhancement of limit of maximum balance per customer at end of the day from ₹1 
+lakh to ₹2 lakh – Payments Banks (PBs)
+Please refer to paragraph 3 of Statement on Developmental and Regulatory Policies dated 
+April 7, 2021 on the above subject.
+
+
+2.  In terms of paragraph 4(i) of the ‘Guidelines for Licensing of Payments Banks’ 
+(Licensing Guidelines) dated November 27, 2014, PBs were restricted to hold a maximum 
+balance of ₹1 lakh per individual customer at the end of the day. It was also indicated in 
+the guidelines that after gauging the performance of the PBs, RBI may consider increasing
+the maximum balance limit.
+
+
+3.  Considering the progress made by PBs in furthering financial inclusion and with the 
+objective of giving more flexibility to the PBs, it has been decided to enhance the limit of 
+maximum balance at the end of the day from ₹1 lakh to ₹2 lakh per individual customer of 
+PBs with immediate effect.
+
+
+4.  The other terms and conditions of the Licensing Guidelines remain unchanged.
+
+
+Yours faithfully
+(Prakash Baliarsingh)
+Chief General Manage
+</pre>
+
+            
+</div>
+
+
+<div class="comment-div">
+    <button class="comment button" onclick="commentButtonClicked()">Comment</button>
+</div>
+
+<div id="side" class="curtain">
+    <div class="side-window">
+        <button class="exit" onclick="exitButtonClicked()">❌</button>
+        <h2 class="res">Responses(5)</h2>
+
+        <textarea class="comments" name="comment" id="comment" cols="45" rows="3" placeholder="leave a text here"></textarea><br>
+        <button class="closebtn" onclick="closeButtonClicked()">submit</button><br>
+
+        <img src="face.png" class="face" alt="face">
+        <span class="name" >Priyank sharma</span>
+        <div>
+         <div class="square">
+             
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus 
+                 fugiat vitae distinctio numquam tempora labore porro eius reiciendis. Rem, 
+                 eum at neque eius numquam suscipit quaerat cupiditate incidunt quos aut.
+                 fugiat vitae distinctio numquam tempora labore porro eius reiciendis. Rem, 
+                 eum at neque eius numquam suscipit quaerat cupiditate incidunt quos aut.
+              </p><br>
+<P>thank you</P>
+         </div>
+        </div>
+            <style>
+            
+            .square {
+             color:black;
+             border-style: groove;
+             border-width: 2px;
+             width: 350px;
+             height: 200px;
+             text-align: left;
+            }
+            </style>   
+            
+                
+            <img src="elon.jpg" class="face" alt="face">
+            <span class="name" >Elon musk</span>
+            <div>
+             <div class="square">
+                 
+                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus 
+                     fugiat vitae distinctio numquam tempora labore porro eius reiciendis. Rem, 
+                     eum at neque eius numquam suscipit quaerat cupiditate incidunt quos aut.
+                     fugiat vitae distinctio numquam tempora labore porro eius reiciendis. Rem, 
+                     eum at neque eius numquam suscipit quaerat cupiditate incidunt quos aut.
+                  </p><br>
+ <P>thank you</P>
+             </div>
+            </div>
+                <style>
+                
+                .square {
+                 color:black;
+                 border-style: groove;
+                 border-width: 2px;
+                 width: 350px;
+                 height: 200px;
+                 text-align: left;
+                }
+                </style>
+    </div>
+</div>
+
+
+<script>
+    function commentButtonClicked() {
+        document.getElementById("side").style.display = "block";
+    }
+    function closeButtonClicked() {
+        document.getElementById("side").style.display = "none";
+    }
+    function exitButtonClicked(){
+            document.getElementById("side").style.display = "none";
+        }
+</script>
+        
+    
+</body>
+</html>
